@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     );
 
     // Opcionalno: Resetiraj formu nakon slanja
-    form.reset();
+    if (ime != "" || prezime != "" || email != "" || poruka != "") form.reset();
   });
 });
